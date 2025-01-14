@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./images/spotify.svg">
+        <title>Spotify - Web Player: Music for everyone</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="utility.css">
+    </head>
+    <body>
+        <div class="container flex bg-black">
+         <div class="left ">
+            <div class="close">
+                <img class="invert" src="./Images/cross.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert"src="./images/logo.svg" alt="spotify logo"></div>
+                <ul>
+                    <li><img class="invert"src="./images/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="./images/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey m-1 p-1 rounded">
+              <div class="heading">
+                <img class="invert"src="./images/playlist.svg" alt="">
+                <h2> Your library</h2>
+              </div>
+              <div class="songlist">
+                <ul>
+                    
+                </ul>
+              </div>
+              <div class="footer">
+                <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                <a href="https://www.spotify.com/in-en/safetyandprivacy/">Privacy</a>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+            </div>
+            </div>
+            
+         </div>
+         <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                <div class="hamburgercontainer">
+                <img class="hamburger invert" src="./Images/hamburger.svg" alt="">  
+                <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 7L10 12L15 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg> 
+                <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                </div>    
+                <div class="buttons">
+                  <button class="signupbtn">Sign up</button>
+                  <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="popularartist">
+                <h1>Popular Artists</h1>
+                <div class="cardcontainer">
+                    <div data-folder="song1" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" width="40" height="40">
+                                <circle cx="12" cy="12" r="12" fill="green" />
+                                <path d="M9 7.5l7 5-7 5V7.5z" fill="black"/>
+                              </svg>
+                        </div> 
+                        <img src="./images/Pritam.jpg" alt="">
+                        <h2>Pritam</h2>
+                        <p>artist</p> 
+                    </div>
+                    <div data-folder="song2" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" width="40" height="40">
+                                <circle cx="12" cy="12" r="12" fill="green" />
+                                <path d="M9 7.5l7 5-7 5V7.5z" fill="black"/>
+                              </svg>
+                        </div>
+                        <img src="./images/arijit.jpg" alt="">
+                        <h2>Arijit Singh</h2>
+                        <p>artist</p> 
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" width="40" height="40">
+                                <circle cx="12" cy="12" r="12" fill="green" />
+                                <path d="M9 7.5l7 5-7 5V7.5z" fill="black"/>
+                              </svg>
+                        </div>
+                        <img src="./images/honey.jpg" alt="">
+                        <h2>Yo Yo Honey Singh</h2>
+                        <p>artist</p> 
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" width="40" height="40">
+                                <circle cx="12" cy="12" r="12" fill="green" />
+                                <path d="M9 7.5l7 5-7 5V7.5z" fill="black"/>
+                              </svg>
+                        </div>
+                        <img src="./images/sonunigam.jpg" alt="">
+                        <h2>Sonu Nigam</h2>
+                        <p>artist</p> 
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" width="40" height="40">
+                                <circle cx="12" cy="12" r="12" fill="green" />
+                                <path d="M9 7.5l7 5-7 5V7.5z" fill="black"/>
+                              </svg>
+                        </div>
+                        <img src="./images/arijit.jpg" alt="">
+                        <h2>Arijit Singh</h2>
+                        <p>artist</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+                        
+                    </div>
+                </div>
+                <div class="abovebar">
+                <div class="songinfo">
+
+                </div>
+                <div class="songbutton">
+                    <img id="previous"src="./images/previous.svg" alt="previous">
+                    <img id="play"src="./images/playpause.svg" alt="previous">
+                    <img id="next"src="./images/next.svg" alt="previous">
+                </div>
+                <div class="timevol">
+                <div class="songtime">
+                </div>
+                <div class="volume">
+                    <img src="./Images/volume.svg" alt="">
+                    <div class="range">
+                        <input type="range" name="volume" id="">
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+         </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
